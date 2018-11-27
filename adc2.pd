@@ -22,7 +22,7 @@
 #X obj 392 90 hsl 60 18 0 2 0 1 empty empty damping 2 9 1 12 -261689
 -1 -1 1475 0;
 #X obj 392 45 hsl 60 18 0.11 1.1 0 1 empty empty roomsize 2 9 1 12
--261689 -1 -1 3252 0;
+-261689 -1 -1 5809 0;
 #X floatatom 362 49 3 0 0 0 - - -, f 3;
 #X floatatom 362 94 3 0 0 0 - - -, f 3;
 #X floatatom 362 139 3 0 0 0 - - -, f 3;
@@ -35,7 +35,7 @@
 #X obj 460 491 cos~;
 #X obj 533 491 cos~;
 #X obj 564 338 hsl 100 30 0 0.99 0 0 empty empty empty -2 -8 0 10 -203904
--1 -1 7830 1;
+-1 -1 9685 1;
 #X floatatom 569 421 5 0 0 0 - - -, f 5;
 #X obj 533 460 + 0.75;
 #X obj 446 539 *~;
@@ -100,11 +100,7 @@
 #X connect 28 0 30 0;
 #X connect 30 0 27 0;
 #X connect 31 0 34 0;
-#X connect 31 0 0 0;
-#X connect 31 0 0 1;
 #X connect 32 0 34 1;
-#X connect 32 0 0 0;
-#X connect 32 0 0 1;
 #X connect 36 0 35 0;
 #X connect 38 0 37 0;
 #X connect 39 0 38 0;
